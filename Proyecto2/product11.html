@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Store</title>
+    <link rel="preload" href="../Proyecto2/css/normalize.css">
+    <link rel="stylesheet" href="../Proyecto2/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="../Proyecto2/css/styles.css">
+    <link rel="stylesheet" href="../Proyecto2/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="nav">
+        <a class="nav__link nav__link--active" href="index.html">Store</a>
+        <a class="nav__link" href="aboutUs.html">About Us</a>
+    </nav>
+
+    <!-- Main -->
+    <main class="contenedor">
+        <h1>Drupal</h1>
+
+        <div class="shirt">
+            <img class="shirt__img" src="img/11.jpg" alt="product image">
+            <div class="shirt__content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laboriosam quia amet beatae enim dicta ratione doloremque totam architecto? Quaerat, deserunt ullam.</p>
+                <form class="form">
+                    <select class="form__field">
+                        <option disabled selected>-- Select Size --</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>Extra-Large</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="Quantity" min="1">
+                    <input class="form__submit" type="submit" value="Add to Cart">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__text">Front-End Store - All rights reserved. 2023. Simón Olarte</p>
+    </footer>
+</body>
+</html>
